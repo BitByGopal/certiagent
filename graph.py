@@ -30,7 +30,7 @@ def reasoning_node(s: State):
 
 def build():
     g = StateGraph(State)
-    g.add_node("intake", intake_node)
+    g.add_node("intake", intake_node) 
     g.add_node("extraction", extract_node)
     g.add_node("registry_check", registry_node)
     g.add_node("forensics_check", forensics_node)
