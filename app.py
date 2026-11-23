@@ -20,7 +20,7 @@ if file:
     with st.spinner("Agents working: intake → extraction → registry + forensics → reasoning ..."):
         out = verify(img, mode)
     colour = {"GENUINE": "green", "FAKE": "red", "REVIEW": "orange"}[out["verdict"]]
-    st.markdown(f"## Verdict: :{colour}[{out['verdict']}]")
+    st.markdown(f"## Verdict: :{colour}[{out['verdict']}]") 
     st.write(out["explanation"])
 
     c1, c2 = st.columns(2)
