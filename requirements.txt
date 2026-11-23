@@ -1,0 +1,9 @@
+google-genai
+langgraph
+pydantic
+pytesseract
+pillow
+numpy
+pandas
+streamlit
+python-dotenv
