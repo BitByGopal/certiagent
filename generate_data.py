@@ -30,7 +30,7 @@ BG = (252, 249, 240); W, H = 1400, 990
 
 def record(used):
     while True:
-        name = f"{random.choice(FIRST)} {random.choice(LAST)}"
+        name = f"{random.choice(FIRST)} {random.choice(LAST)}" 
         if name not in used: used.add(name); break
     return dict(cert_id=f"JH{random.randint(100000, 999999)}", name=name, roll=f"{random.randint(20,23)}{random.randint(10000,99999)}",
                 university=random.choice(UNIS), program=random.choice(PROGS), year=str(random.randint(2021, 2025)),
