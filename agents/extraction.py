@@ -10,7 +10,7 @@ from .llm import generate, llm_available
 
 
 class CertificateFields(BaseModel):
-    university: Optional[str] = Field(None, description="Issuing university name")
+    university: Optional[str] = Field(None, description="Issuing university name") 
     name: Optional[str] = Field(None, description="Full name of the certificate holder")
     roll: Optional[str] = Field(None, description="Roll number, digits only")
     program: Optional[str] = Field(None, description="Degree awarded")
