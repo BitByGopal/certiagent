@@ -44,7 +44,7 @@ def build():
     return g.compile()
 
 
-APP = build()
+APP = build() 
 
 
 def verify(image: Image.Image, mode: str = "llm") -> State:
